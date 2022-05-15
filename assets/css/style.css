@@ -110,7 +110,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     text-align: center;
     background-color: #0a182e;
     width: 700px;
@@ -119,6 +119,7 @@ header nav ul li a:hover {
 }
 
 .works h2 {
+    background-color: #0a182e;
     font-size: 48px;
     font-weight: bold;
     text-align: right;
@@ -130,45 +131,76 @@ header nav ul li a:hover {
 }
 
 .works h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-style: italic;
     color: white;
 }
 
-.works img {
-    max-width: 100%;
-    max-height: 100%;
+.works a {
+    background-color: #0a182e;
 }
 
 .run-buddy {
+    background-color: #0a182e;
+    background-image: url("../images/runbuddy.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px 20px 20px 20px;
+    padding: 150px 250px 150px 250px;
+    position: relative;
+    width: 160px;
+    height: auto;
+}
+
+.title-1 {
+    background-color: rgb(154, 177, 214, 0.2);
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px 10px 10px 500px;
+    padding: 5px 10px 5px 320px;
+}
+
+.title-1 h3 {
+    background-color: rgb(154, 177, 214, 0.2);
+    margin: 20px 10px 20px 100px;
+    width: 200px;
+
+}
+
+.horiseon {
+    background-color: #0a182e;
+    background-image: url("../images/horiseon.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 100%;
     max-height: 100%;
-    border: solid black;    
-    margin: 20px 20px 20px 20px;
-    padding: 20px;
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
     align-items: flex-end;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
 }
 
 .flex-row  {
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #0a182e;
+    text-align: right;
 }
 
 .flex-row-2 {
+    background-color: #0a182e;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .flex-row-2 h3 {
     border: solid black;
     padding: 50px 20px 50px 20px;
-    
+    margin: auto 17px auto 17px;
 }
 
 .contact {
