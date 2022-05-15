@@ -108,6 +108,7 @@ header nav ul li a:hover {
 .works {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     text-align: center;
     background-color: #0a182e;
     width: 700px;
@@ -118,9 +119,35 @@ header nav ul li a:hover {
 .works h2 {
     font-size: 48px;
     font-weight: bold;
+    text-align: right;
     border-bottom: solid #39c6c6;
     color: white;
     text-shadow:  0 0 8px #39c6c6;
+    margin: 0 auto 40px auto;
+}
+
+.works h3 {
+    font-size: 28px;
+    color: white;
+}
+
+.works img {
+    max-width: 75%;
+    max-height: 75%;
+    align-content: flex-end;
+}
+
+.run-buddy {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-row  {
+    flex-direction: row-reverse;
+}
+
+.flex-row-2 {
+    flex-direction: row;
 }
 
 .contact {
