@@ -52,19 +52,58 @@ header nav ul li a:hover {
 /* Styles for the About Me section */
 
 .bio {
-    border: solid #39c6c6;
-    border-style: inset;
-    border-width: 10px;
-    border-radius: 20px;
-    margin: 20px auto;
-    padding: 100px 20px 100px 20px;
+    margin: 200px auto 30px auto;
+    position: relative;
+    width: 900px;
+    left: 100px;
+    right: 100px;
+    text-align: center;
 }
 
 .bio h2 {
     font-size: 48px;
     font-weight: bold;
+    float: left;
+    border-bottom: solid #39c6c6;
+    color: white;
+    text-shadow:  0 0 8px #39c6c6;
+    position: absolute;
+    top: 0;
+}
+
+.bio img {
+    position: absolute;
+    float: left;
+    max-width: 25%;
+    height: auto;
+    left: 0;
+    top: 200px;
 }
 
 .bio-paragraph {
-    text-align: right;
+    position: absolute;
+    float: right;
+    left: 300px;
+    width: 600px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.bio-paragraph p {
+    margin: 10px auto;
+    padding: 50px 0 50px 0;
+}
+
+/* My Work styles */
+
+.works {
+    position: relative;
+    text-align: center;
+    top: 900px;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    top: 900px;
 }
