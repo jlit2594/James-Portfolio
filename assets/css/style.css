@@ -52,54 +52,75 @@ header nav ul li a:hover {
 /* Styles for the About Me section */
 
 .bio {
-    margin: 200px auto 30px auto;
-    position: relative;
-    width: 900px;
-    left: 100px;
-    right: 100px;
-    text-align: center;
+    background-color: #0a182e;
+    box-shadow: -20px -20px 3px 7px #39c6c6;
+    border: solid 2px white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 700px;
+    margin: 100px auto 300px auto;
+    padding: 25px;
 }
 
 .bio h2 {
     font-size: 48px;
     font-weight: bold;
-    float: left;
     border-bottom: solid #39c6c6;
     color: white;
     text-shadow:  0 0 8px #39c6c6;
-    position: absolute;
-    top: 0;
+    margin: 0 auto 40px auto;
+    background-color: #0a182e;
 }
 
 .bio img {
-    position: absolute;
-    float: left;
-    max-width: 25%;
-    height: auto;
-    left: 0;
-    top: 200px;
+    max-width: 90%;
+    height: 90%;
+    box-shadow: 7px -7px 12px 12px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.bio-paragraph {
-    position: absolute;
-    float: right;
-    left: 300px;
-    width: 600px;
-    font-size: 24px;
-    font-weight: lighter;
+.bio p {
+    font-size: 21px;
+    font-weight: oblique;
+    text-align: center;
+    background-color: #0a182e;
 }
 
-.bio-paragraph p {
-    margin: 10px auto;
-    padding: 50px 0 50px 0;
+.selfie {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #0a182e;
+}
+
+.flex-column {
+    flex-direction: column;
+    background-color: #0a182e;
+}
+
+.flex-column-2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0a182e;
 }
 
 /* My Work styles */
 
 .works {
-    position: relative;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    top: 900px;
+    background-color: #0a182e;
+    width: 700px;
+    margin: 100px auto 300px auto;
+    padding: 25px;
+}
+
+.works h2 {
+    font-size: 48px;
+    font-weight: bold;
+    border-bottom: solid #39c6c6;
+    color: white;
+    text-shadow:  0 0 8px #39c6c6;
 }
 
 .contact {
