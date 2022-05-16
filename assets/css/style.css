@@ -277,7 +277,7 @@ header nav ul li a:hover {
     color: #39c6c6;
 }
 
-/* MEDIA QUERY FOR SMALLER TABLETS AND LAPTOPS */
+/* MEDIA QUERY FOR SMALLER SCREENS */
 
 @media screen and (max-width: 980px) {
     header nav ul li {
@@ -286,5 +286,11 @@ header nav ul li a:hover {
 
     .contact ul li {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bio p {
+        font-size: 12px;
     }
 }
