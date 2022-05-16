@@ -293,4 +293,8 @@ header nav ul li a:hover {
     .bio p {
         font-size: 12px;
     }
+
+    .bio {
+        flex-wrap: wrap;
+    }
 }
