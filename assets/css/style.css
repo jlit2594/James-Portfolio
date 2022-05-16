@@ -102,6 +102,8 @@ header nav ul li a:hover {
     flex-direction: column;
     background-color: #0a182e;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-column-2 {
@@ -351,6 +353,15 @@ header nav ul li a:hover {
 
 @media screen and (max-width: 375px) {
     header {
+        width: 100%;
+        margin: auto 185px auto 185px;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    header nav {
         width: 100%;
     }
 }
