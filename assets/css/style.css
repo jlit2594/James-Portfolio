@@ -13,6 +13,7 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
@@ -332,14 +333,24 @@ header nav ul li a:hover {
     header {
         width: 100%;
         max-width: 100%;
+        margin: auto 160px auto 160px;
     }
 
     header h1 {
         font-size: 60px;
+        margin: 70px 100px 0 100px;
+        width: 100%;
+        justify-content: center;
     }
 
     header nav {
         justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
         width: 100%;
     }
 }
