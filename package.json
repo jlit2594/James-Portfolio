@@ -1,0 +1,23 @@
+{
+  "name": "homework-2-porfolio",
+  "version": "1.0.0",
+  "description": "![This is an image previewing my website](./assets/images/preview.PNG)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlit2594/homework-2-porfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlit2594/homework-2-porfolio/issues"
+  },
+  "homepage": "https://github.com/jlit2594/homework-2-porfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}
